@@ -1,7 +1,6 @@
-#include<iostream>
-
-using namespace std;
+#include <iostream>
+#include "getString.h"
 
 int main() {
-    cout << "Hello, World!" << endl;
+    std::cout << getString() << std::endl;
 }
