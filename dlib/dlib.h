@@ -4,5 +4,6 @@
 #include <string>
 
 std::string upperFirst(const std::string& s);
+void unusedFunction();
 
 #endif // _DLIB_H_
