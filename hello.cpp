@@ -4,5 +4,6 @@
 #include "slib.h"
 
 int main() {
-    std::cout << getString() << std::endl;
+    std::string world(getWorld());
+    std::cout << upperFirst(getHello()) << upperFirst(world) << std::endl;
 }

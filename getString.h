@@ -3,6 +3,7 @@
 
 #include <string>
 
-std::string getString();
+std::string getHello();
+std::string getWorld();
 
 #endif // _GETSTRING_H_

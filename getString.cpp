@@ -1,6 +1,11 @@
 #include "getString.h"
 
-std::string getString() {
-    std::string helloWorld = "Hello, World!";
-    return helloWorld;
+std::string getWorld() {
+    std::string world("world");
+    return world;
+}
+
+std::string getHello() {
+    std::string hello("hello");
+    return hello;
 }
